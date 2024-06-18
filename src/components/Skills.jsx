@@ -9,67 +9,22 @@ const Skills = () => {
           Skills
         </p>
         <h2 className="py-4">Technologies I Work With</h2>
+        <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+            <div className="m-auto">
+              <Image
+                src="/../public/assets/skills/ts.png"
+                alt="TypeScript"
+                width="64"
+                height="64"
+              />
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <h3>TypeScript</h3>
+            </div>
+          </div>
+        </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/css.png"
-                  alt="CSS"
-                  width="64"
-                  height="64"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/html.png"
-                  alt="HTML"
-                  width="64"
-                  height="64"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/mui.png"
-                  alt="MUI"
-                  width="64"
-                  height="64"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Material UI</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/tailwind.png"
-                  alt="Tailwind"
-                  width="64"
-                  height="64"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
-              </div>
-            </div>
-          </div>
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -97,21 +52,6 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Node.js</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/ts.png"
-                  alt="TypeScript"
-                  width="64"
-                  height="64"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>TypeScript</h3>
               </div>
             </div>
           </div>
@@ -157,21 +97,6 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Next.js</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src="/../public/assets/skills/php-2.png"
-                  alt="PHP"
-                  width="64"
-                  height="64"
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>PHP</h3>
               </div>
             </div>
           </div>
@@ -239,14 +164,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/rundeck.png"
-                  alt="Rundeck"
+                  src="/../public/assets/skills/css.png"
+                  alt="CSS"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Rundeck</h3>
+                <h3>CSS</h3>
               </div>
             </div>
           </div>
@@ -254,14 +179,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/jenkins.png"
-                  alt="Jenkins"
+                  src="/../public/assets/skills/html.png"
+                  alt="HTML"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Jenkins</h3>
+                <h3>HTML</h3>
               </div>
             </div>
           </div>
@@ -269,14 +194,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/postman.png"
-                  alt="Postman"
+                  src="/../public/assets/skills/mui.png"
+                  alt="MUI"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Postman</h3>
+                <h3>Material UI</h3>
               </div>
             </div>
           </div>
@@ -284,14 +209,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/swagger.png"
-                  alt="Swagger"
+                  src="/../public/assets/skills/tailwind.png"
+                  alt="Tailwind"
                   width="64"
                   height="64"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Swagger</h3>
+                <h3>Tailwind</h3>
               </div>
             </div>
           </div>

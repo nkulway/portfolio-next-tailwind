@@ -14,7 +14,7 @@ const Navbar = () => {
   const router = useRouter()
 
   useEffect(() => {
-    if(router.asPath === '/property') {
+    if (router.asPath === '/property') {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
     } else {
@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <div
-    style={{backgroundColor: `${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100]'
@@ -58,7 +58,7 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul  style={{color: `${linkColor}`}} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="#home" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -157,16 +157,32 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedinIn />
+                  <a
+                    href="https://www.linkedin.com/in/nkulway/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedinIn />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
+                  <a
+                    href="https://github.com/nkulway"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
+                  <a href="mailto:nkulway@gmail.com?subject=Inquiry%20from%20Your%20Portfolio&body=Hello%20[Nick%20Kulway],%0D%0A%0D%0AI%20am%20interested%20in%20discussing%20job%20opportunities%20with%20you.%0D%0A%0D%0ARegards,">
+                    <AiOutlineMail />
+                  </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                  <a href="tel:4045636282">
+                    <BsFillPersonLinesFill />
+                  </a>
                 </div>
               </div>
             </div>

@@ -1,9 +1,9 @@
-import Link from "next/link";
-import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Link from 'next/link'
+import React from 'react'
+import { AiOutlineMail } from 'react-icons/ai'
+import { BsFillPersonLinesFill } from 'react-icons/bs'
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 
 const Contact = () => {
   return (
@@ -67,7 +67,9 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Phone Number</label>
+                    <label className="uppercase text-sm py-2">
+                      Phone Number
+                    </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
@@ -76,44 +78,46 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                <label className="uppercase text-sm py-2">Email</label>
-                <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="email"
-                      name="email"
-                    />
+                  <label className="uppercase text-sm py-2">Email</label>
+                  <input
+                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    type="email"
+                    name="email"
+                  />
                 </div>
                 <div className="flex flex-col py-2">
-                <label className="uppercase text-sm py-2">Subject</label>
-                <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
-                      name="subject"
-                    />
+                  <label className="uppercase text-sm py-2">Subject</label>
+                  <input
+                    className="border-2 rounded-lg p-3 flex border-gray-300"
+                    type="text"
+                    name="subject"
+                  />
                 </div>
                 <div className="flex flex-col py-2">
-                <label className="uppercase text-sm py-2">Message</label>
-                <textarea
-                    className='border-2 rounded-lg p-3 border-gray-300'
-                    rows='10'
-                    name='message'
+                  <label className="uppercase text-sm py-2">Message</label>
+                  <textarea
+                    className="border-2 rounded-lg p-3 border-gray-300"
+                    rows="10"
+                    name="message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100">Send Message</button>
+                <button className="w-full p-4 text-gray-100">
+                  Send Message
+                </button>
               </form>
             </div>
           </div>
         </div>
         <div className="flex justify-center py-12">
-            <Link href="#home" scroll={false}>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <HiOutlineChevronDoubleUp size={30} className="text-[#5651e5]"/>
-                </div>
-            </Link>
+          <Link href="#home" scroll={false}>
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+              <HiOutlineChevronDoubleUp size={30} className="text-[#5651e5]" />
+            </div>
+          </Link>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

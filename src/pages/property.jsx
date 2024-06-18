@@ -1,8 +1,8 @@
-import Image from "next/image";
-import React from "react";
-import propertyImg from "../../public/Projects/property.jpg";
-import {RiRadioButtonFill} from 'react-icons/ri'
-import Link from "next/link";
+import Image from 'next/image'
+import React from 'react'
+import propertyImg from '../../public/Projects/property.jpg'
+import { RiRadioButtonFill } from 'react-icons/ri'
+import Link from 'next/link'
 
 const property = () => {
   return (
@@ -12,7 +12,7 @@ const property = () => {
         <Image
           className="absolute z-1"
           fill
-          style={{ objectFit: "cover" }}
+          style={{ objectFit: 'cover' }}
           src={propertyImg}
           alt="project"
         />
@@ -30,57 +30,49 @@ const property = () => {
             This is a dummy paragraph for a project in my software development
             portfolio. As a software developer, I understand the importance of
             having a portfolio that showcases my skills and expertise. Whether
-            you&apos;re looking to land a new job or attract new clients, having a
-            portfolio that highlights your best work is essential. That&apos;s why
-            I&apos;m taking the time to create a portfolio that not only showcases my
-            technical abilities but also my creativity, problem-solving skills,
-            and attention to detail. In this project, I&apos;m creating a software
-            development portfolio that includes examples of my work, as well as
-            detailed descriptions of the projects I&apos;ve worked on. I&apos;m also
-            including information about my experience and education, so
-            potential employers or clients can get a better understanding of my
-            background and qualifications.
+            you&apos;re looking to land a new job or attract new clients, having
+            a portfolio that highlights your best work is essential. That&apos;s
+            why I&apos;m taking the time to create a portfolio that not only
+            showcases my technical abilities but also my creativity,
+            problem-solving skills, and attention to detail. In this project,
+            I&apos;m creating a software development portfolio that includes
+            examples of my work, as well as detailed descriptions of the
+            projects I&apos;ve worked on. I&apos;m also including information
+            about my experience and education, so potential employers or clients
+            can get a better understanding of my background and qualifications.
           </p>
-          <a
-            href='https://github.com/nkulway'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+          <a href="https://github.com/nkulway" target="_blank" rel="noreferrer">
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a
-            href='/#home'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+          <a href="/#home" target="_blank" rel="noreferrer">
+            <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
-        <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
-          <div className='p-2'>
-            <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1'>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+        <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
+          <div className="p-2">
+            <p className="text-center font-bold pb-2">Technologies</p>
+            <div className="grid grid-cols-3 md:grid-cols-1">
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> React
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Next JS
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Next JS
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-          <p className='underline cursor-pointer'>Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default property;
+export default property

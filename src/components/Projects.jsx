@@ -1,12 +1,12 @@
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
-import ProjectItem from "./ProjectItem";
-import propertyImg from "../../public/Projects/property.jpg";
-import stock3 from "../../public/Projects/stock-3.jpg";
-import stock4 from "../../public/Projects/stock-4.jpg";
-import stock5 from "../../public/Projects/stock-5.jpg";
-import stock6 from "../../public/Projects/stock-6.jpg";
+import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+import ProjectItem from './ProjectItem'
+import propertyImg from '../../public/Projects/property.jpg'
+import stock3 from '../../public/Projects/stock-3.jpg'
+import stock4 from '../../public/Projects/stock-4.jpg'
+import stock5 from '../../public/Projects/stock-5.jpg'
+import stock6 from '../../public/Projects/stock-6.jpg'
 
 const Projects = () => {
   return (
@@ -44,7 +44,7 @@ const Projects = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

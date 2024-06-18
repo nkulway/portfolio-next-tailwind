@@ -15,8 +15,11 @@ const About = () => {
           <p className="py-2 text-gray-600">
             I&apos;m a full-stack web developer and automation engineer. I spent
             five years as a chef, honing my skills and exploring my passion for
-            cooking. But as much as I loved being in the kitchen, I realized
-            that my true passion was learning and working with technology.
+            cooking. While I thoroughly enjoyed my time in the kitchen, I
+            discovered a newfound interest in utilizing technology to deliver
+            diverse products and experiences to people around the world. This
+            desire to expand my skill set drove me to transition from culinary
+            arts to focusing on technology.
           </p>
           <p className="py-2 text-gray-600">
             In 2020, I started teaching myself Javascript, building projects

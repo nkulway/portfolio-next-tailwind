@@ -15,7 +15,7 @@ const Projects = () => {
       <p className="text-xl tracking-widest uppercase text-[#5651e5]">
         Projects
       </p>
-      <h2>What I&apos;ve Built</h2>
+      <h2>What I've Built</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <ProjectItem
           title="Placeholder Project One"

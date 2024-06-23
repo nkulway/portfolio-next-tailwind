@@ -75,18 +75,25 @@ const Contact = () => {
               <form>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">Name</label>
+                    <label htmlFor="name" className="uppercase text-sm py-2">
+                      Name
+                    </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                      id="name"
+                      autoComplete="on"
+                      className="border-2 rounded-lg p-3 border-gray-300"
                       type="text"
                       name="name"
                     />
                   </div>
+
                   <div className="flex flex-col">
-                    <label className="uppercase text-sm py-2">
+                    <label htmlFor="phone" className="uppercase text-sm py-2">
                       Phone Number
                     </label>
                     <input
+                      id="phone"
+                      autoComplete="on"
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="phone"
@@ -94,24 +101,34 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Email</label>
+                  <label htmlFor="email" className="uppercase text-sm py-2">
+                    Email
+                  </label>
                   <input
+                    id="email"
+                    autoComplete="on"
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                     name="email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Subject</label>
+                  <label htmlFor="subject" className="uppercase text-sm py-2">
+                    Subject
+                  </label>
                   <input
+                    id="subject"
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                     name="subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Message</label>
+                  <label htmlFor="message" className="uppercase text-sm py-2">
+                    Message
+                  </label>
                   <textarea
+                    id="message"
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
                     name="message"

@@ -1,12 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import ProjectItem from './ProjectItem'
-import propertyImg from '../../public/Projects/property.jpg'
+import reactMatchGame from '../../public/Projects/react-match-by-memory-desktop.png'
 import stock3 from '../../public/Projects/stock-3.jpg'
-import stock4 from '../../public/Projects/stock-4.jpg'
-import stock5 from '../../public/Projects/stock-5.jpg'
-import stock6 from '../../public/Projects/stock-6.jpg'
+
 
 const Projects = () => {
   return (
@@ -18,9 +14,10 @@ const Projects = () => {
       <h2>What I&apos;ve Built</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <ProjectItem
-          title="Placeholder Project One"
-          backgroundImg={propertyImg}
+          title="Match by Memory"
+          backgroundImg={reactMatchGame}
           projectUrl="/property"
+          projectDetails="React / Typescript / CSS"
         />
         <ProjectItem
           title="Placeholder Project Two"

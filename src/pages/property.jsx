@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import propertyImg from '../../public/Projects/property.jpg'
+import reactMatchGame from '../../public/Projects/react-match-by-memory-desktop.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const property = () => {
+const Property = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const property = () => {
           className="absolute z-1"
           fill
           style={{ objectFit: 'cover' }}
-          src={propertyImg}
+          src={reactMatchGame}
           alt="project"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Demo Project</h2>
-          <h3>Next JS / Tailwind</h3>
+          <h2 className="py-2">Match by Memory</h2>
+          <h3>React / Typescript / CSS</h3>
         </div>
       </div>
 
@@ -27,46 +27,35 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a dummy paragraph for a project in my software development
-            portfolio. As a software developer, I understand the importance of
-            having a portfolio that showcases my skills and expertise. Whether
-            you&apos;re looking to land a new job or attract new clients, having
-            a portfolio that highlights your best work is essential. That&apos;s
-            why I&apos;m taking the time to create a portfolio that not only
-            showcases my technical abilities but also my creativity,
-            problem-solving skills, and attention to detail. In this project,
-            I&apos;m creating a software development portfolio that includes
-            examples of my work, as well as detailed descriptions of the
-            projects I&apos;ve worked on. I&apos;m also including information
-            about my experience and education, so potential employers or clients
-            can get a better understanding of my background and qualifications.
+            I developed a memory-matching game using <span className="font-bold">React</span> and <span className="font-bold">TypeScript</span>, which I deployed on Vercel. The game challenges players to flip cards and find matching pairs, testing their memory and concentration. I utilized React&apos;s component-driven architecture to create a reusable <span className="font-bold">MemoryCard component</span>, while efficiently managing the game state using <span className="font-bold">useState</span> and <span className="font-bold">useEffect</span> hooks. <br /><br />Key functions such as <span className="font-bold">unflipCards</span> and <span className="font-bold">checkWin</span> are optimized with <span className="font-bold">useCallback</span> to enhance performance. I also implemented custom hooks for core game logic like shuffling the deck and resetting the game, ensuring organized and reusable code.<br /><br /> TypeScript was used throughout the project to enforce strict typing, improving code quality and reducing runtime errors. The combination of these technologies and best practices resulted in a responsive, visually appealing game that showcases my skills in modern front-end development.
           </p>
-          <a href="https://github.com/nkulway" target="_blank" rel="noreferrer">
+          <a href="https://github.com/nkulway/react-memory-game/tree/main" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="/#home" target="_blank" rel="noreferrer">
+          <a href="https://memory-match-delta.vercel.app/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+            <div className="grid grid-cols-3 md:grid-cols-1 gap-y-2">
+              <p className="text-gray-600 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Next JS
+              <p className="text-gray-600 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Typescript
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
+              <p className="text-gray-600 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> HTML
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+              <p className="text-gray-600 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> CSS
               </p>
             </div>
           </div>
         </div>
+
         <Link href="/#projects">
           <p className="underline cursor-pointer">Back</p>
         </Link>
@@ -75,4 +64,4 @@ const property = () => {
   )
 }
 
-export default property
+export default Property

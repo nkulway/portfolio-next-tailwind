@@ -35,9 +35,6 @@ const About = () => {
             spending time with family playing board games, I&apos;m always eager to connect with others who share
             similar interests. Feel free to reach out and say hello!
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            Check out some of my latest projects
-          </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <img

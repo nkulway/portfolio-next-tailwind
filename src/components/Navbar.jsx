@@ -14,7 +14,7 @@ const Navbar = () => {
   const router = useRouter()
 
   useEffect(() => {
-    if (router.asPath === '/property') {
+    if (router.asPath.includes('/projects')) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
     } else {
@@ -66,21 +66,21 @@ const Navbar = () => {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="#home" scroll={false}>
+            <Link href="/#home" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="#about" scroll={false}>
+            <Link href="/#about" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="#skills" scroll={false}>
+            <Link href="/#skills" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="#projects" scroll={false}>
+            <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="#contact" scroll={false}>
+            <Link href="/#contact" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>

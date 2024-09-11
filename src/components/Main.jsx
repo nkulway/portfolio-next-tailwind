@@ -27,34 +27,34 @@ const Main = () => {
             Bakkt, all while keeping up with the latest technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a
-                href="https://www.linkedin.com/in/nkulway/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a
-                href="https://github.com/nkulway"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a href="mailto:nkulway@gmail.com?subject=Inquiry%20from%20Your%20Portfolio&body=Hello%20[Nick%20Kulway],%0D%0A%0D%0AI%20am%20interested%20in%20discussing%20[topic]%20with%20you.%0D%0A%0D%0ARegards,%0D%0A[Nick%20Kulway]">
-                <AiOutlineMail />
-              </a>
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <a href="tel:4045636282">
-                <BsFillPersonLinesFill />
-              </a>
-            </div>
+            <a
+              href="https://www.linkedin.com/in/nkulway/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full shadow-lg shadow-gray-400 w-16 h-16 flex items-center justify-center cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <FaLinkedinIn />
+            </a>
+            <a
+              href="https://github.com/nkulway"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full shadow-lg shadow-gray-400 w-16 h-16 flex items-center justify-center cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <FaGithub />
+            </a>
+            <a
+              href="mailto:nkulway@gmail.com?subject=Inquiry%20from%20Your%20Portfolio&body=Hello%20[Nick%20Kulway],%0D%0A%0D%0AI%20am%20interested%20in%20discussing%20[topic]%20with%20you.%0D%0A%0D%0ARegards,%0D%0A[Nick%20Kulway]"
+              className="rounded-full shadow-lg shadow-gray-400 w-16 h-16 flex items-center justify-center cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <AiOutlineMail />
+            </a>
+            <a
+              href="tel:4045636282"
+              className="rounded-full shadow-lg shadow-gray-400 w-16 h-16 flex items-center justify-center cursor-pointer hover:scale-110 ease-in duration-300"
+            >
+              <BsFillPersonLinesFill />
+            </a>
           </div>
         </div>
       </div>

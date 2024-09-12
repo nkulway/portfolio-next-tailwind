@@ -49,7 +49,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         {/* placeholder image for when I have 
                 the images want on my navbar */}
-        <Link href="#home" scroll={false}>
+        <Link href="/#home" scroll={false}>
           <svg
             width="125"
             height="50"
@@ -108,7 +108,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Link href="#home" scroll={false}>
+              <Link href="/#home" scroll={false}>
                 <Image
                   src="/favicon.ico"
                   alt="/"
@@ -132,27 +132,27 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="#home" scroll={false}>
+              <Link href="/#home" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Home
                 </li>
               </Link>
-              <Link href="#about" scroll={false}>
+              <Link href="/#about" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   About
                 </li>
               </Link>
-              <Link href="#skills" scroll={false}>
+              <Link href="/#skills" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Skills
                 </li>
               </Link>
-              <Link href="#projects" scroll={false}>
+              <Link href="/#projects" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Projects
                 </li>
               </Link>
-              <Link href="#contact" scroll={false}>
+              <Link href="/#contact" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
                 </li>

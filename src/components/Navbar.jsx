@@ -110,10 +110,11 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="#home" scroll={false}>
                 <Image
-                  src="/../public/assets/stock-1.jpg"
+                  src="/favicon.ico"
                   alt="/"
                   width="87"
                   height="35"
+                  className="rounded-md"
                 />
               </Link>
               <div

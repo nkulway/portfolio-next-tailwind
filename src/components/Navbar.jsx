@@ -8,6 +8,7 @@ import { useRouter } from 'next/router'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
+  const [blur, setBlur] = useState('none')
   const [shadow, setShadow] = useState(false)
   const [navBg, setNavBg] = useState('#ecf0f3')
   const [linkColor, setLinkColor] = useState('#1f2937')
@@ -17,6 +18,7 @@ const Navbar = () => {
     if (router.asPath.includes('/projects')) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
+      setBlur('blur(3px)')
     } else {
       setNavBg('#ecf0f3')
       setLinkColor('#1f2937')
@@ -39,7 +41,7 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
+      style={{ backgroundColor: `${navBg}`, backdropFilter: `${blur}` }}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100]'

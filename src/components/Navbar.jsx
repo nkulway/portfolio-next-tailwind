@@ -41,7 +41,11 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}`, backdropFilter: `${blur}` }}
+      style={{
+        backgroundColor: `${navBg}`,
+        backdropFilter: `${blur}`,
+        WebkitBackdropFilter: `${blur}`,
+      }}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100]'

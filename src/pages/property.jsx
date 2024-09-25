@@ -27,12 +27,44 @@ const Property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I developed a memory-matching game using <span className="font-bold">React</span> and <span className="font-bold">TypeScript</span>, which I deployed on Vercel. The game challenges players to flip cards and find matching pairs, testing their memory and concentration. I utilized React&apos;s component-driven architecture to create a reusable <span className="font-bold">MemoryCard component</span>, while efficiently managing the game state using <span className="font-bold">useState</span> and <span className="font-bold">useEffect</span> hooks. <br /><br />Key functions such as <span className="font-bold">unflipCards</span> and <span className="font-bold">checkWin</span> are optimized with <span className="font-bold">useCallback</span> to enhance performance. I also implemented custom hooks for core game logic like shuffling the deck and resetting the game, ensuring organized and reusable code.<br /><br /> TypeScript was used throughout the project to enforce strict typing, improving code quality and reducing runtime errors. The combination of these technologies and best practices resulted in a responsive, visually appealing game that showcases my skills in modern front-end development.
+            I developed a memory-matching game using{' '}
+            <span className="font-bold">React</span> and{' '}
+            <span className="font-bold">TypeScript</span>, which I deployed on
+            Vercel. The game challenges players to flip cards and find matching
+            pairs, testing their memory and concentration. I utilized
+            React&apos;s component-driven architecture to create a reusable{' '}
+            <span className="font-bold">MemoryCard component</span>, while
+            efficiently managing the game state using{' '}
+            <span className="font-bold">useState</span> and{' '}
+            <span className="font-bold">useEffect</span> hooks. <br />
+            <br />
+            Key functions such as <span className="font-bold">
+              unflipCards
+            </span>{' '}
+            and <span className="font-bold">checkWin</span> are optimized with{' '}
+            <span className="font-bold">useCallback</span> to enhance
+            performance. I also implemented custom hooks for core game logic
+            like shuffling the deck and resetting the game, ensuring organized
+            and reusable code.
+            <br />
+            <br /> TypeScript was used throughout the project to enforce strict
+            typing, improving code quality and reducing runtime errors. The
+            combination of these technologies and best practices resulted in a
+            responsive, visually appealing game that showcases my skills in
+            modern front-end development.
           </p>
-          <a href="https://github.com/nkulway/react-memory-game/tree/main" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/nkulway/react-memory-game/tree/main"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="https://memory-match-delta.vercel.app/" target="_blank" rel="noreferrer">
+          <a
+            href="https://memory-match-delta.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>

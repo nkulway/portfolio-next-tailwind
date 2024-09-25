@@ -16,9 +16,7 @@ const ProjectItem = ({ title, backgroundImg, projectUrl, projectDetails }) => {
         <h3 className="text-2xl tracking-wider mb-2">{title}</h3>
         <p className="pb-4">{projectDetails}</p>
         <Link href={projectUrl} passHref>
-          <p
-            className="py-3 px-6 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer"
-          >
+          <p className="py-3 px-6 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
             More Info
           </p>
         </Link>

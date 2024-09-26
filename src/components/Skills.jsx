@@ -209,7 +209,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/assets/skills/gcloud-icon.png"
+                  src="/assets/skills/google-cloud-platform-logo.svg"
                   alt="Google Cloud Platform"
                   width="64"
                   height="64"

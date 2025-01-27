@@ -52,7 +52,7 @@ const AlarmChat = () => {
             entertaining interaction.
           </p>
           <a
-            href="https://github.com/nkulway/alarm-chat"
+            href="https://github.com/nkulway/alarm-clock"
             target="_blank"
             rel="noreferrer"
           >

@@ -22,13 +22,13 @@ const About = () => {
             a junior developer.
           </p>
           <p className="py-2 text-gray-600">
-            In my current position as a software engineer at Bakkt, I write
-            automated tests using TypeScript/Node and Mocha. I work on a scrum
-            team, building projects with Angular, Java, and Spring Boot, and I
-            handle compliance aspects such as PCI to ensure our solutions meet
-            stringent security standards. My enthusiasm for technology drives me
-            to continually learn and stay ahead of industry trends, ensuring I
-            contribute effectively to our team&apos;s success.
+            In my current position as a software engineer at CallRail, I work
+            on a team dedicated to building AI-powered products that help
+            businesses drive results. My work spans the stack, using technologies
+            like Angular, Ruby on Rails, and modern AI platforms such as AssemblyAI,
+            OpenAI, and Anthropic. I focus on delivering reliable, scalable, and
+            secure solutions while continually learning and applying new technologies
+            to make a meaningful impact on my team&apos;s success.
           </p>
           <p className="py-2 text-gray-600">
             Outside of work, I&apos;m passionate about exploring new

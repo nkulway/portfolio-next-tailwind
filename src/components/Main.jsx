@@ -16,10 +16,11 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Software Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I specialize in creating and maintaining outstanding digital
-            experiences as a software developer. Presently, my attention is on
-            establishing a comprehensive automated testing suite from scratch at
-            Bakkt, all while keeping up with the latest technologies.
+            I specialize in building and maintaining impactful digital
+            experiences as a software engineer. Currently, I work at CallRail
+            on the team dedicated to developing AI-powered products, where
+            I focus on creating solutions that optimize workflows and deliver
+            measurable results for businesses.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
